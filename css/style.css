@@ -1,3 +1,30 @@
+.vidWrapper
+.paraWrapper {
+  margin: 0 auto;
+  display: block;
+  text-align: center; }
 
+.hiLightText {
+  width: 80vw;
+  margin: 0 auto; }
+
+.vidWrapper {
+  display: flex;
+  width: 80%;
+  max-width: 640px;
+  margin: 0 auto; }
+
+.vidItem {
+  width: 100vw;
+  height: 50vh; }
+  @media (min-width: 768px) {
+    .vidItem {
+      width: 80vw;
+      height: 50vh; } }
+
+.mejs__controls {
+  height: 40px;
+  width: 40px;
+  background-color: transparent #c217ce; }
 
 /*# sourceMappingURL=style.css.map */
