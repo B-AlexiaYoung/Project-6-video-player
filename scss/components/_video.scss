@@ -1,25 +1,35 @@
-// style video
+
+
+//style wrapper for video
 .vidWrapper{
     display:flex;
-    
-    //align-self:center;
-    width:80%;
-    max-width: 640px;
-    margin: 0 auto;
+    width: 100%;
+    @include mediaQry(large){
+    align-self:center;
+    width: $width;
+    }
 };
-
+// style video
 .vidItem{ 
     
     width: 100vw; 
     height: 50vh;
-     //display: none;
-     @include media-qry(large){
+    @include mediaQry(large){
         width: 80vw;
         height: 50vh;
     }
     }
+    
+    
+    .mejs__button > button{
+        background: #616e82 url(mejs-controls.svg);
+        border: 1px solid #4901a8;
+        }
     .mejs__controls{
-        height: 40px;
-        width:40px;
-        background-color: transparent #c217ce;
+        background:  #616e82;
+        opacity:0.5;
+    }
+    .mejs__time-rail{
+        background:#616e82;
+        opacity: 0.5;
     }

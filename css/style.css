@@ -1,18 +1,15 @@
-.vidWrapper
-.paraWrapper {
+.vidWrapper {
   margin: 0 auto;
-  display: block;
-  text-align: center; }
-
-.hiLightText {
-  width: 80vw;
-  margin: 0 auto; }
+  display: flex;
+  max-width: 900px; }
 
 .vidWrapper {
   display: flex;
-  width: 80%;
-  max-width: 640px;
-  margin: 0 auto; }
+  width: 100%; }
+  @media (min-width: 768px) {
+    .vidWrapper {
+      align-self: center;
+      width: 80%; } }
 
 .vidItem {
   width: 100vw;
@@ -22,9 +19,32 @@
       width: 80vw;
       height: 50vh; } }
 
+.mejs__button > button {
+  background: #616e82 url(mejs-controls.svg);
+  border: 1px solid #4901a8; }
+
 .mejs__controls {
-  height: 40px;
-  width: 40px;
-  background-color: transparent #c217ce; }
+  background: #616e82;
+  opacity: 0.5; }
+
+.mejs__time-rail {
+  background: #616e82;
+  opacity: 0.5; }
+
+.paraWrapper {
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px; }
+  @media (min-width: 768px) {
+    .paraWrapper {
+      max-width: 80%; } }
+  @media (min-width: 1100px) {
+    .paraWrapper {
+      max-width: 900px; } }
+
+.hiLightText {
+  padding: 2px;
+  line-height: 1.5em; }
 
 /*# sourceMappingURL=style.css.map */

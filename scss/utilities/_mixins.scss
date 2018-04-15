@@ -1,16 +1,17 @@
 
-
-
-
-
-
 // media query
-@mixin media-qry($break){
+@mixin mediaQry($break){
     @if $break =="large"{ 
         @media(min-width: $breakpoint-large){
         
         @content;
-}}}
+}}
+@else if $break =="xlarge"{
+    @media(min-width: $breakpoint-xlarge){
+        @content;
+    }
+}
+}
 
 
 

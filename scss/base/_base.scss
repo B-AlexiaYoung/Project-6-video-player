@@ -1,11 +1,8 @@
-//center video and paragraph ***
-.vidWrapper
-.paraWrapper{
+//style wrapper for video ***
+.vidWrapper{
     margin: 0 auto;
-    display:block;
-    text-align: center;
+    display:flex;
+    
+    max-width: 900px;
 }
-.hiLightText{
-    width: 80vw;
-    margin: 0 auto;
-}
+

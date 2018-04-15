@@ -10,8 +10,7 @@ $("video").mediaelementplayer({
 const subtext= document.getElementsByClassName("hiLightText");
 let vid = document.getElementById("vidItem");
 const wrapper= document.getElementsByClassName('wrapper');
-let width= 800 +"px";
-let height= 500 +"px";
+
 
 // add timeupdate listener and function for highlighting text while video plays.
 vid.addEventListener('timeupdate', function(){timefunction();});
@@ -38,12 +37,3 @@ document.addEventListener('click', (event) => {
     };
 });
 
-const mediaQry = (x) => {
-    if (x.matches) { // If media query matches
-        vid.setAttribute("width", width);
-        vid.setAttribute("height", height);
-    }
-}
-var x = window.matchMedia("(min-width: 768px)")
-mediaQry(x) // Call listener function at run time
-x.addListener(mediary) // Attach listener function on state changes
