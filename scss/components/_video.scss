@@ -1,0 +1,25 @@
+// style video
+.vidWrapper{
+    display:flex;
+    
+    //align-self:center;
+    width:80%;
+    max-width: 640px;
+    margin: 0 auto;
+};
+
+.vidItem{ 
+    align-self:center;
+    width: 100vw; 
+    height: 50vh;
+     //display: none;
+     @include media-qry(large){
+        width: 80vw;
+        height: 50vh;
+    }
+    }
+    .mejs__controls{
+        height: 40px;
+        width:40px;
+        background-color: transparent #c217ce;
+    }

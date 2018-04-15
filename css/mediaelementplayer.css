@@ -98,11 +98,11 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 }
 
 .mejs__mediaelement {
-    height: 100%;
+    height: 50%;
     left: 0;
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 50%;
     z-index: 0;
 }
 
