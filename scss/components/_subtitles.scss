@@ -10,9 +10,10 @@
     }
     @include mediaQry(xlarge){
         max-width: 900px;
+    cursor:pointer;
     }
     };
-    
+
 // for subtitles
 .hiLightText{
     padding: 2px;
