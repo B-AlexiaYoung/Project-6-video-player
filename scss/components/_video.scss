@@ -19,12 +19,14 @@
         height: 50vh;
     }
     }
+    .mejs__fullscreen-button > button,
+    .mejs__play > button,
+    .mejs__mute > button {
+        //background-position: -60px 0;
+        background-color:#616e82;
+        border: 1px solid #4901a8; 
+    }
     
-    
-    .mejs__button > button{
-        background: #616e82 url(mejs-controls.svg);
-        border: 1px solid #4901a8;
-        }
     .mejs__controls{
         background:  #616e82;
         opacity:0.5;
