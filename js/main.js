@@ -1,5 +1,4 @@
 // main.js//
-$(document).ready(function(){$('video, audio').mediaelementplayer();});
 //add control buttons to video
 $("video").mediaelementplayer({
     features:['playpause','progress', 'volume', 'fullscreen']
